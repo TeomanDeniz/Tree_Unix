@@ -33,6 +33,16 @@ You can combine the options with directory paths:
 ./tree test_folder -a
 ```
 
+You can also edit the output by the defines inside of the `header.h` if you want:
+```c
+#	define TREE_START ".\n" /* ./tree.c */
+#	define TREE_DRAW_BRANCH ":.." /* ./recursive_tree.c */
+#	define TREE_PRINT_FILE " %s\n" /* ./recursive_tree.c */
+#	define TREE_PRINT_FOLDER "[%s]\n" /* ./recursive_tree.c */
+#	define TREE_DRAW_LINE ":  " /* ./recursive_tree.c */
+#	define TREE_DRAW_IDLE "   " /* ./recursive_tree.c */
+```
+
 ## Example Output:
 
 ```

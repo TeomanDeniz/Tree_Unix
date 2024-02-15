@@ -14,6 +14,7 @@
 
 /* **************************** [v] INCLUDES [v] **************************** */
 #include "tree.h" /*
+# define TREE_START
 #typedef t_tree;
 #   void recursive_tree(t_tree);
 #*/
@@ -42,7 +43,7 @@ void
 	bool	folders_splitted;
 	t_tree	tree;
 
-	printf(",\n");
+	printf(TREE_START);
 	tree.path = ".";
 	folders_splitted = false;
 	tree.show_all_files = false;

@@ -35,11 +35,12 @@
 /* **************************** [^] INCLUDES [^] **************************** */
 
 /* ************************* [v] OUTPUT SYNTAX [v] ************************** */
-#	define TREE_DRAW_BRANCH ":.."
-#	define TREE_PRINT_FILE " %s\n"
-#	define TREE_PRINT_FOLDER "[%s]\n"
-#	define TREE_DRAW_LINE ":  "
-#	define TREE_DRAW_IDLE "   "
+#	define TREE_START ".\n" /* ./tree.c */
+#	define TREE_DRAW_BRANCH ":.." /* ./recursive_tree.c */
+#	define TREE_PRINT_FILE " %s\n" /* ./recursive_tree.c */
+#	define TREE_PRINT_FOLDER "[%s]\n" /* ./recursive_tree.c */
+#	define TREE_DRAW_LINE ":  " /* ./recursive_tree.c */
+#	define TREE_DRAW_IDLE "   " /* ./recursive_tree.c */
 /* ************************* [^] OUTPUT SYNTAX [^] ************************** */
 
 typedef struct s_tree

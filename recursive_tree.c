@@ -15,6 +15,11 @@
 /* **************************** [v] INCLUDES [v] **************************** */
 #include "tree.h" /*
 # define PATH_MAX
+# define TREE_DRAW_BRANCH
+# define TREE_PRINT_FILE
+# define TREE_PRINT_FOLDER
+# define TREE_DRAW_LINE
+# define TREE_DRAW_IDLE
 #typedef t_tree;
 #   void path_overwrite(char [], char *, char *);
 #*/

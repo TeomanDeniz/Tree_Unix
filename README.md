@@ -36,7 +36,6 @@ You can combine the options with directory paths:
 ## Example Output:
 
 ```
-./tree
 .
 :.. LICENSE
 :.. main.c
@@ -57,4 +56,81 @@ You can combine the options with directory paths:
 :
 :.. tree.h
 :.. tree.o
+```
+```
+.
+:..[.git]
+:  :.. config
+:  :.. description
+:  :.. HEAD
+:  :..[hooks]
+:  :  :.. applypatch-msg.sample
+:  :  :.. commit-msg.sample
+:  :  :.. fsmonitor-watchman.sample
+:  :  :.. post-update.sample
+:  :  :.. pre-applypatch.sample
+:  :  :.. pre-commit.sample
+:  :  :.. pre-merge-commit.sample
+:  :  :.. pre-push.sample
+:  :  :.. pre-rebase.sample
+:  :  :.. pre-receive.sample
+:  :  :.. prepare-commit-msg.sample
+:  :  :.. update.sample
+:  :
+:  :.. index
+:  :..[info]
+:  :  :.. exclude
+:  :
+:  :..[logs]
+:  :  :.. HEAD
+:  :  :..[refs]
+:  :     :..[heads]
+:  :     :  :.. main
+:  :     :
+:  :     :..[remotes]
+:  :        :..[origin]
+:  :           :.. HEAD
+:  :
+:  :..[objects]
+:  :  :..[19]
+:  :  :  :.. 0e20f699268b886048a1f38406c8075f756887
+:  :  :
+:  :  :..[50]
+:  :  :  :.. 08ddfcf53c02e82d7eee2e57c38e5672ef89f6
+:  :  :
+:  :  :..[6e]
+:  :  :  :.. fe821b3e0ce42c41dc79cc3904769512fa2a61
+:  :  :
+:  :  :..[76]
+:  :  :  :.. fb25c9e4ca990d3361801dfbc86520273f9c12
+:  :  :
+:  :  :..[79]
+:  :  :  :.. 97a09412ad291ae9e6a0ffea586e7445961133
+:  :  :
+:  :  :..[ea]
+:  :  :  :.. 3d270a7580832ac9b6d674c5575ca3ae853779
+:  :  :
+:  :  :..[fb]
+:  :  :  :.. 77738811439a8d8d529bb693b7ee0abfc2fbb0
+:  :  :
+:  :  :..[info]
+:  :  :
+:  :  :..[pack]
+:  :     :.. pack-326d33b51e7d0acd97b6b436117a4bbd05967c18.idx
+:  :     :.. pack-326d33b51e7d0acd97b6b436117a4bbd05967c18.pack
+:  :
+:  :.. packed-refs
+:  :..[refs]
+:     :..[heads]
+:     :  :.. main
+:     :
+:     :..[remotes]
+:     :  :..[origin]
+:     :     :.. HEAD
+:     :
+:     :..[tags]
+:
+:..[asd]
+:
+:.. Another test file
 ```
